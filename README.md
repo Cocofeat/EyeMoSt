@@ -9,6 +9,15 @@
 
 ## Quick Start
 
+## Code Usage
+* 1. Prepare dataset
+
+* 2. Pretrained models
+
+* 3. Train
+
+* 4. Test
+
 ## Citation
 If you find TMC helps your research, please cite our paper:
 ```
