@@ -4,8 +4,8 @@
 * Part of codes are released.
 
 ## Datasets
-* GAMMA dataset
-* OLIVES dataset
+* [GAMMA dataset](https://gamma.grand-challenge.org/)
+* [OLIVES dataset](https://github.com/olivesgatech/OLIVES_Dataset)
 
 ## Quick Start
 
