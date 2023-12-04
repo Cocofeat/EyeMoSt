@@ -1,0 +1,5 @@
+# EyeMoSt+
+* This repository provides the code for our paper 【Medical Image Analysis submission 2024】"Confidence-aware multi-modality learning for eye disease screening"
+* Since our article is still under review, we will release all the code once we submit our revision.
+* Current official implementation of [EyeMoSt](https://arxiv.org/abs/2303.09790)
+* You can refer part codes from conference paper[EyeMoSt](https://github.com/Cocofeat/EyeMoSt/tree/main/MICCAI23).
