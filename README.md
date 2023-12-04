@@ -19,7 +19,7 @@
 4. Test
 
 ## Citation
-If you find TMC helps your research, please cite our paper:
+If you find EyeMoSt helps your research, please cite our paper:
 ```
 @InProceedings{EyeMoSt_Zou_2023,
 author="Zou, Ke
