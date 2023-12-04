@@ -749,125 +749,16 @@ if __name__ == "__main__":
     if args.model_name =="ResNet_TMC":
         model = TMC(args.num_classes, args.modalties, args.dims, args.lambda_epochs)
         # model = ECNP_WAO(args.num_classes, args.modalties, args.dims, args.lambda_epochs)
-    elif args.model_name =="ResNet_TMC_WAO":
-        model = TMC_WAO(args.num_classes, args.modalties, args.dims, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP":
-        model = ECNP_ST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
     elif args.model_name =="ResNet_ECNP_Beta":
         model = ECNP_ST_Beta(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_ST_Beta_fusion1":# u= u1 sigma = (sigma1+sigma2)/2 OLIVES
-        model = ECNP_ST_Beta_fusion1(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_ST_Beta_fusion":# u= u1+u2 sigma = (sigma1+sigma2)/2
-        model = ECNP_ST_Beta_fusion(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_ST_Beta_fusion2":# u= u1 sigma = (sigma1+sigma2)/2 Our
-        model = ECNP_ST_Beta_fusion2(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_ST_Beta_fusion3":# u= u1 sigma = (sigma1+sigma2)/2  OLVIES
-        model = ECNP_ST_Beta_fusion3(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_ST_Beta_fusion4":# u= u1 sigma = sigma1+sigma2  Our
-        model = ECNP_ST_Beta_fusion4(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
     elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF":  # fusion rule for mean Our
         model = ECNP_ST_Beta_fusion_C_DF(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
     elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_CMLU":  # fusion rule for mean Our
         model = ECNP_ST_Beta_fusion_C_CMLU(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
     elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML":  # fusion rule for mean Our
         model = ECNP_ST_Beta_fusion_C_DF_CML(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_2D":  # fusion rule for mean Our
-        args.modalties = 1
-        model = ECNP_ST_Beta_fusion_C_DF_CML_2D(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_3D":  # fusion rule for mean Our
-        args.modalties = 1
-        model = ECNP_ST_Beta_fusion_C_DF_CML_3D(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_lamda0":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_lamda0(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_lamda1":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_lamda1(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_lamda3":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_lamda3(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_lamda7":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_lamda7(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_lamda10":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_lamda10(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_variance":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_variance(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_loss":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_loss(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_loss_evi":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_loss_evi(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_loss_evi2":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_loss_evi2(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CML_loss_evi3":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CML_loss_evi3(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CMLU":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CMLU(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_ST_Beta_fusion_C_DF_CMLU_DF":  # fusion rule for mean Our
-        model = ECNP_ST_Beta_fusion_C_DF_CMLU_DF(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_loss":
-        model = ECNP_ST_Beta_loss(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_Reg":
-        model = ECNP_ST_Beta_Reg(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_Reg_CML":
-        model = ECNP_ST_Beta_Reg_CML(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_Reg_CMLU":
-        model = ECNP_ST_Beta_Reg_CMLU(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_Reg_Ce":
-        model = ECNP_ST_Beta_Reg_Ce(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
     elif args.model_name =="ResNet_ECNP_Beta_CML":
         model = ECNP_ST_Beta_CML(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_CML_50":
-        model = ECNP_ST_Beta_CML(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_CMLU":# NIG 0.01Ce ST 0.5Ce Our
-        model = ECNP_ST_Beta_CMLU(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_CMLU2": # NIG 0.5Ce ST 0.5Ce Our
-        model = ECNP_ST_Beta_CMLU2(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_CMLU3":# NIG 0.5Ce ST 0.5Ce OLIVES
-        model = ECNP_ST_Beta_CMLU3(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_CMLU4":# NIG 0.01Ce ST 0.01Ce Our
-        model = ECNP_ST_Beta_CMLU4(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_Beta_CMLU5":# NIG 0.01Ce ST 0.01Ce OLIVES
-        model = ECNP_ST_Beta_CMLU5(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNPU":
-        model = ECNP_UST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_lamda":
-        model = ECNP_ST_lamda(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_lamda_NLL":
-        model = ECNP_ST_lamda_NLL(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_ECNP_IST":
-        model = ECNP_IST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_UST":
-        model = ECNP_UST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_ECNP_UVST":
-        model = ECNP_UVST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MMST":
-        model = MM_ST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MM_ST_fusion_C_DF":
-        model = MM_ST_fusion_C_DF(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-
-    elif args.model_name =="ResNet_MMST_Reg":
-        model = MM_ST_Reg(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MMST_Reg_Ce":
-        model = MM_ST_Reg_Ce(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MMST_Reg_CML":
-        model = MM_ST_Reg_CML(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MMST_Reg_CMLU":
-        model = MM_ST_Reg_CMLU(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MMST_Reg_Ce_CML":
-        model = MM_ST_Reg_Ce_CML(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MMST_Reg_Ce_CMLU":
-        model = MM_ST_Reg_Ce_CMLU(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name == "ResNet_MMUST":
-        model = MM_UST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MM_NIGST":
-        model = MM_NIG_ST(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MM_STNIG":
-        model = MM_ST_NIG(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MM_NIG":
-        model = MM_NIG(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MM_NIG_ablation":
-        model = MM_NIG_ablation(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
-    elif args.model_name =="ResNet_MM_UNIG":
-        model = MM_UNIG(args.num_classes, args.modalties, args.dims, args, args.lambda_epochs)
     else:
         print('There is no this model name')
         raise NameError
