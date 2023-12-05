@@ -5,7 +5,7 @@
 
 ## Datasets
 * [GAMMA dataset](https://gamma.grand-challenge.org/)
-* [OLIVES dataset](https://github.com/olivesgatech/OLIVES_Dataset)
+* [OLIVES dataset](https://doi.org/10.5281/zenodo.7105232)
 
 ## Quick Start
 
