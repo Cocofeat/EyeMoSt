@@ -1,4 +1,4 @@
 # EyeMoSt
 * This repository provides the code for our paper 【MICCAI 2023 Early Accept】"Reliable Multimodality Eye Disease Screening via Mixture of Student's t Distributions"
 * Current official implementation of [EyeMoSt](https://arxiv.org/abs/2303.09790)
-* Part of codes are released.
+* All of codes are released [EyeMoSt+](https://github.com/Cocofeat/EyeMoSt/tree/main/MedIA%E2%80%9924).
