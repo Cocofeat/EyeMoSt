@@ -7,8 +7,6 @@
 * [GAMMA dataset](https://gamma.grand-challenge.org/)
 * [OLIVES dataset](https://doi.org/10.5281/zenodo.7105232)
 
-## Quick Start
-
 ## Code Usage
 1. Prepare dataset
 
