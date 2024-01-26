@@ -1,4 +1,4 @@
-# Trusted Multi-View Classification
+# Confidence-aware multi-modality learning for eye disease screening
 ## 1. Requirment
 - Pytorch 1.3.0
 - Python 3
