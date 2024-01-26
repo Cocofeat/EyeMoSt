@@ -6,7 +6,8 @@
 - numpy
 - scipy
 ## 2. Prepare dataset
-
+* [GAMMA dataset](https://gamma.grand-challenge.org/)
+* [OLIVES dataset](https://doi.org/10.5281/zenodo.7105232)
 ## 3. Pretrained model
 ### CNN-based
 Fundus (2D): 
