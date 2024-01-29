@@ -16,10 +16,10 @@ Download the datasets and change the dataset path:\
 ### 2. Pretrained models
 Download pretrained models and put them in ./pretrain/\
 
-CNN-based\
+#### 2.1 CNN-based\
 Fundus (2D): [Res2Net](https://github.com/LeiJiangJNU/Res2Net)\
 OCT (3D):  [Med3d](https://github.com/cshwhale/Med3D)\
-Transformer-based\
+#### 2.2 Transformer-based\
 Fundus (2D): [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)\
 OCT (3D): [UNETR](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR)
 
