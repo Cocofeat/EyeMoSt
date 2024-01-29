@@ -33,14 +33,14 @@
 
 ### 3. Train
 #### 3.1 Train Baseline
-Run the script ```main_train2.sh python baseline_train3_trans.py``` to train the baselines (change ``` model_name ```& ```mode```), models will be saved in folder ```checkpoint```
+Run the script [main_train2.sh](https://github.com/Cocofeat/EyeMoSt/blob/main/MedIA%E2%80%9924/main_train2.sh)```main_train2.sh python baseline_train3_trans.py``` to train the baselines (change ``` model_name ```& ```mode```), models will be saved in folder ```checkpoint```
 #### 3.2 Train Our Model
-Run the script ```main_train2.sh python train3_trans.py``` to train our model (change ``` model_name ```), models will be saved in folder ```checkpoint```
+Run the script[main_train2.sh](https://github.com/Cocofeat/EyeMoSt/blob/main/MedIA%E2%80%9924/main_train2.sh) ```main_train2.sh python train3_trans.py``` to train our model (change ``` model_name ```), models will be saved in folder ```checkpoint```
 ### 4. Test
 #### 4.1 Test Baseline
-Run the script ```main_train2.sh python baseline_train3_trans.py``` to test our model  (change ``` model_name ```& ```mode```)
+Run the script[main_train2.sh](https://github.com/Cocofeat/EyeMoSt/blob/main/MedIA%E2%80%9924/main_train2.sh) ```main_train2.sh python baseline_train3_trans.py``` to test our model  (change ``` model_name ```& ```mode```)
 #### 4.2 Test Our Model
-Run the script ```main_train2.sh python train3_trans.py``` to test our model (change ``` model_name ```& ```mode```)
+Run the script[main_train2.sh](https://github.com/Cocofeat/EyeMoSt/blob/main/MedIA%E2%80%9924/main_train2.sh) ```main_train2.sh python train3_trans.py``` to test our model (change ``` model_name ```& ```mode```)
 
 ## Citation
 If you find EyeMoSt helps your research, please cite our paper:
