@@ -16,23 +16,23 @@
 ### 2. Pretrained models
 * Download pretrained models and put them in ./pretrain/
 
-#### 2.1 CNN-based\
+#### 2.1 CNN-based
 * Fundus (2D): [Res2Net](https://github.com/LeiJiangJNU/Res2Net)
 * OCT (3D):  [Med3d](https://github.com/cshwhale/Med3D)
-#### 2.2 Transformer-based\
+#### 2.2 Transformer-based
 * Fundus (2D): [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
 * OCT (3D): [UNETR](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR)
 
 ### 3. Train
 #### 3.1 Train Baseline
-Run the script ```script_ours_MS_CXR.sh``` to train, val and test our model, models will be saved in folder ```checkpoint```
+Run the script ```main_train2.sh python baseline_train3_trans.py``` to train the baselines (change ``` model_name ```& ```mode```), models will be saved in folder ```checkpoint```
 #### 3.2 Train Our Model
-Run the script ```script_ours_MS_CXR.sh``` to train, val and test our model, models will be saved in folder ```checkpoint```
+Run the script ```main_train2.sh python train3_trans.py``` to train our model (change ``` model_name ```), models will be saved in folder ```checkpoint```
 ### 4. Test
-#### 4.1 Train Baseline
-Run the script ```script_ours_MS_CXR.sh``` to train, val and test our model, models will be saved in folder ```checkpoint```
-#### 4.2 Train Our Model
-Run the script ```script_ours_MS_CXR.sh``` to train, val and test our model, models will be saved in folder ```checkpoint```
+#### 4.1 Test Baseline
+Run the script ```main_train2.sh python baseline_train3_trans.py``` to test our model  (change ``` model_name ```& ```mode```)
+#### 4.2 Test Our Model
+Run the script ```main_train2.sh python train3_trans.py``` to test our model (change ``` model_name ```& ```mode```)
 ## Citation
 If you find EyeMoSt helps your research, please cite our paper:
 ```
