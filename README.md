@@ -8,21 +8,22 @@
 * [OLIVES dataset](https://doi.org/10.5281/zenodo.7105232)
 
 ## Code Usage
-1. Prepare dataset
+### 1. Prepare dataset
 Download the datasets and change the dataset path
 [OLIVES dataset path](https://github.com/Cocofeat/EyeMoSt/blob/fb471c67beafe70dfb4d67f896d3220ec0a48df3/MedIA%E2%80%9924/train3_trans.py#L409)
 [GAMMA dataset basepath and datapath](https://github.com/Cocofeat/EyeMoSt/blob/fb471c67beafe70dfb4d67f896d3220ec0a48df3/MedIA%E2%80%9924/train3_trans.py#L431)
 
-2. Pretrained models
-Download pretrained models and put them in ./pretrain/
-### CNN-based
+### 2. Pretrained models
+'Download pretrained models and put them in ./pretrain/
+
+'' CNN-based
 Fundus (2D): [Res2Net](https://github.com/LeiJiangJNU/Res2Net)
 OCT (3D):  [Med3d](https://github.com/cshwhale/Med3D)
-### Transformer-based
+''  Transformer-based
 Fundus (2D): [Swin-Transformer]https://github.com/microsoft/Swin-Transformer
 OCT (3D): [UNETR](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR)
 
-3. Train
+### 3. Train
 
 4. Test
 
