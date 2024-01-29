@@ -13,11 +13,8 @@
 
 ### 2. Pretrained models
 * Download pretrained models and put them in ./pretrain/
-
-#### 2.1 CNN-based
 * Fundus (2D): [Res2Net](https://github.com/LeiJiangJNU/Res2Net)
-#### 2.2 Transformer-based
-* Fundus (2D): [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
+* OCT (3D):  [Med3d](https://github.com/cshwhale/Med3D)
 
 ### 3. Train & Test
 Run the script ```main_train2.sh python train.py``` to test our model (change ``` model_name ```& ```mode```)
