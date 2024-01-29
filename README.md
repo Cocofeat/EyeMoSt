@@ -10,7 +10,7 @@
 ## Code Usage
 ### 1. Prepare dataset
 * Download the datasets and change the dataset path:
-* [OLIVES dataset path](https://github.com/Cocofeat/EyeMoSt/blob/fb471c67beafe70dfb4d67f896d3220ec0a48df3/MedIA%E2%80%9924/train3_trans.py#L409)\
+* [OLIVES dataset path](https://github.com/Cocofeat/EyeMoSt/blob/fb471c67beafe70dfb4d67f896d3220ec0a48df3/MedIA%E2%80%9924/train3_trans.py#L409)
 * [GAMMA dataset basepath and datapath](https://github.com/Cocofeat/EyeMoSt/blob/fb471c67beafe70dfb4d67f896d3220ec0a48df3/MedIA%E2%80%9924/train3_trans.py#L431)
 
 ### 2. Pretrained models
@@ -33,6 +33,7 @@ Run the script ```main_train2.sh python train3_trans.py``` to train our model (c
 Run the script ```main_train2.sh python baseline_train3_trans.py``` to test our model  (change ``` model_name ```& ```mode```)
 #### 4.2 Test Our Model
 Run the script ```main_train2.sh python train3_trans.py``` to test our model (change ``` model_name ```& ```mode```)
+
 ## Citation
 If you find EyeMoSt helps your research, please cite our paper:
 ```
