@@ -3,6 +3,13 @@
 * Current official implementation of [EyeMoSt](https://arxiv.org/abs/2303.09790)
 * All codes are released in the version of [EyeMoSt+](https://github.com/Cocofeat/EyeMoSt/tree/main/MedIA%E2%80%9924).
 
+## Requirment
+- Pytorch 1.3.0
+- Python 3
+- sklearn
+- numpy
+- scipy
+- 
 ## Datasets
 * [GAMMA dataset](https://gamma.grand-challenge.org/)
 * [OLIVES dataset](https://doi.org/10.5281/zenodo.7105232)
