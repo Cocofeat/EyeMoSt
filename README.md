@@ -43,9 +43,9 @@ Run the script [main_train2.sh](https://github.com/Cocofeat/EyeMoSt/blob/main/Me
 Run the script [main_train2.sh](https://github.com/Cocofeat/EyeMoSt/blob/main/MedIA%E2%80%9924/main_train2.sh) ```main_train2.sh python train3_trans.py``` to test our model (change ``` model_name ```& ```mode```)
 
 ## Citation
-If you find EyeMoSt helps your research, please cite our paper:
+If you find uMedGround helps your research, please cite our paper:
 ```
-@InProceedings{EyeMoSt_Zou_2023,
+@InProceedings{uMedGround_Zou_2024,
 author="Zou, Ke
 and Lin, Tian
 and Yuan, Xuedong
@@ -54,10 +54,7 @@ and Shen, Xiaojing
 and Wang, Meng
 and Fu, Huazhu",
 title="Reliable Multimodality Eye Disease Screening via Mixture of Student's t Distributions",
-booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
-year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="596--606",
+journal={arXiv preprint arXiv:2404.06798},
+year={2024}
 }
 ```
